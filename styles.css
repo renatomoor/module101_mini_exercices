@@ -1,0 +1,60 @@
+button:focus {
+    background-color: slategrey;
+    color: white;
+    outline:0;
+}
+
+#non {
+    outline:0;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+button{
+    margin: 5px;
+}
+
+.center {
+    text-align: center;
+}
+.inline {
+    display: -webkit-inline-box;
+}
+
+#answerBox {
+    margin: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+button{
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+
+button:hover{
+    background: #ddd;
+    color: black;
+    transform: scale(1.05) perspective(1px);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
